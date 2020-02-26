@@ -1,0 +1,175 @@
+/* Responsiveness*/
+@media only screen and (max-width: 934px) {
+    
+    .content{
+        width: 100%;
+        margin: 30px auto 30px; 
+        
+    }
+    h1{
+        font-size: 25px;
+    }
+    .content .product{
+        width: 100%;
+        padding: 20px;
+    }
+    .content .sidebar{
+        width: 100%;
+        padding: 0px 20px;
+        float: left;
+    }
+    .container{
+        width: 100%;
+    }
+    .container .login_side{
+        margin-top: 10px;
+        width: 100%;
+    }
+    .container .tab{
+        width: 100%;
+        padding: 10px;
+    }
+}
+@media only screen and (max-width: 750px) {
+    header{
+        width: 100%;
+    }
+    header ul{
+        width: 100%;
+        background: #ddd;
+        /* max-height: 0px; */
+        overflow: hidden;
+    }
+    header ul li{
+        width: 100%;
+    }
+    header ul li ul{
+        position: static;
+        display: block;
+        width: 100%;
+        background: inherit;
+    }
+    header ul li ul li a{
+        padding: 10px;
+        background: #ddd;
+        color: #444;
+    }
+    header ul li ul li a:hover{
+        background: grey;
+    }
+
+    header .logo{
+        float: left;
+        height: inherit;
+        margin-left: 2 rem;
+    }
+    header .logo-text{
+        font-size: 1.8em;
+    }
+    span{
+        color: black;
+    }
+    .content{
+        width: 100%;
+        box-sizing: border-box;
+        margin: 30px auto 30px;
+        
+    }
+    .content .product{
+        width: 100%;
+        padding: 0px 20px;
+    }
+    .content .sidebar{
+        width: 100%;
+        padding: 0px 20px;
+        float: left;
+    }
+ 
+    .container{
+        width: 100%;
+    }
+    .container .login_side{
+        margin-top: 10px;
+        width: 100%;
+    }
+    .container .tab{
+        width: 100%;
+        padding: 10px;
+    }
+    .tab{
+        height: 573px;
+    }
+
+}
+@media only screen and (max-width: 910px) {
+    form{
+        width:59%;
+    }
+    form fieldset{
+          margin: auto;
+    }
+}
+@media screen and (max-width: 1220px) {
+    .content{
+    width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    .content{
+        width: 100%;
+        }
+        .content .product{
+            height: 530px;
+            padding: 0px;
+        }
+        .content .sidebar {
+            width: 100%;
+            height: 220px;
+            float: left;
+        }
+
+}
+@media screen and (max-width: 300px) {
+    .content{
+        width: 100%;
+        }
+        .content .product{
+            height: 500px;
+            padding: 0px;
+        }
+        .content .siderbar{
+            width: 100%;
+            height: 220px;
+            float: left;
+        }
+ 
+        .container .tab{
+            height: 400px;
+        }
+        .container .tab .container{
+            width: 100%;
+            margin: 0px;
+        }
+        .container .tab .container h2{
+            font-size: 20px;
+            color: white;
+        }
+        .container .tab .container p{
+            font-size: 15px;
+            width: 100%;
+            color: white;
+        }
+        .tab h2{
+            font-size: 10px;  
+        }
+        .container .login_side{
+            width: 100%;
+            height: 400px;
+        }
+   
+      
+}
+
+  
